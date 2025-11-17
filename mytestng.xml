@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<suite name="Suite" parallel="tests" thread-count="1">-->
+
+<suite name="MySuite" >
+	<test name="Add review Test">
+		<classes>
+			<class name="addReviewOnProduct.AddReviewOnProduct" />
+		</classes>
+	</test>
+	<test name="Test Cases Test">
+		<classes>
+			<class name="com.myorrg.AutomationTestcasesTest.TestCasesPageTest">
+			</class>
+		</classes>
+	</test>
+	
+	
+	<test name="Add review Test">
+		<classes>
+			<class name="addReviewOnProduct.AddReviewOnProduct" />
+		</classes>
+	</test>
+
+
+	<test name="Add product Test">
+		<classes>
+			<class name="com.myorrg.AddCartTest.AddProductPageTest">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Contact Us Test">
+		<classes>
+			<class name="com.myorrg.AutomationContactTest.ContactUsTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Regsiter User Test">
+		<classes>
+			<class name="com.myorrg.AutomationPageTEst.RegisterUserTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="UserPage Test">
+		<classes>
+			<class name="com.myorrg.AutomationUserTest.UserPageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Wrong Credentials Test">
+		<classes>
+			<class
+				name="com.myorrg.IncorrectCredentials.WrongCredentialPageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Place Order Test">
+		<classes>
+			<class name="com.myorrg.PlaceOrderTest.PlaceOrderPageTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Product Page Test">
+		<classes>
+			<class name="com.myorrg.ProductTest.ProductPageTest">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Serach Product Test">
+		<classes>
+			<class name="com.myorrg.SearchProductTest.SearchProductTest">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Subscription Test">
+		<classes>
+			<class name="com.myorrg.SubscriptionPageTest.SubscriptionTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Download Invoice Test">
+		<classes>
+			<class name="downloadInvoiceTest.DownloadInvoiceTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Login Before Test">
+		<classes>
+			<class name="loginBeforeCheckOutPageTest.LoginBeforeCheckOutTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Recommended Product Test">
+		<classes>
+			<class name="recommendedProductsTest.RecommendedProductsTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Register Before Test">
+		<classes>
+			<class name="registerBeforeCheckout.RegisterBeforeCheckOutTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Remove From Cart Test">
+		<classes>
+			<class name="removeProductsFromCartTest.RemoveProductsFromCartTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify After Login Test">
+		<classes>
+			<class name="searchVerifyAfterLoginTest.SearchVerifyAfterLoginTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify Address CheckOut Test">
+		<classes>
+			<class name="verifyAddressInCheckOut.VerifyAddressInCheckOutTest">
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="Verify Scroll Arrow Test">
+		<classes>
+			<class name="verifyScrollArrow.VerifyScrollArrow">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify Scroll Test">
+		<classes>
+			<class name="verifyScrollWithOutArrow.VerifyScrollWithOutArrow">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Verify Brand Test">
+		<classes>
+			<class name="viewCartBrandTest.ViewCartBrandTest">
+			</class>
+		</classes>
+	</test>
+
+	<test name="Category Test">
+		<classes>
+			<class name="viewCategoryProductsTest.ViewCategoryProductsTest">
+			</class>
+		</classes>
+	</test>
+
+	 
+	<test name="Page Object Welcome Register Test">
+		<classes>
+			<class name="com.ui.PageObject.WelcomeRegisterPageObjectTest">
+			</class>
+		</classes>
+	</test>
+
+	
+</suite>
